@@ -15,6 +15,11 @@
     fill: #555;
     stroke: #2e2e2e;
 }
+#red-ui-workspace-chart .red-ui-flow-node-button-background,
+#red-ui-workspace-chart .red-ui-flow-node-button-button {
+    fill: #181818 !important;
+    stroke: #839496;
+}
 
 /* node group: function */
 #red-ui-palette-function .red-ui-palette-node,
