@@ -203,8 +203,8 @@ $menuCaret: $tertiary-text-color;
 
 $view-navigator-background: rgba(245,245,245,0.8);
 
-$view-lasso-stroke: #ff7f0e;
-$view-lasso-fill: rgba(20,125,255,0.1);
+$view-lasso-stroke: $base1;
+$view-lasso-fill: rgba(150, 150, 150, 0.1);
 
 $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
@@ -240,8 +240,8 @@ $node-status-colors: (
     grey: #d3d3d3
 );
 
-$node-selected-color: #ff7f0e;
-$port-selected-color: #ff7f0e;
+$node-selected-color: #fff;
+$port-selected-color: #fff;
 
 $link-color: #999;
 $link-link-color: #aaa;
