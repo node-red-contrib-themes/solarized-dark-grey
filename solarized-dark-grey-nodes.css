@@ -87,13 +87,11 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
 }
 
 /* node: catch all */
-#palette_node_catch,
-#palette_node_catch .palette_label,
-rect.node[fill*="#e49191"] {
-   color: #eee !important;
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="catch"],
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="catch"] .red-ui-palette-label,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="catch"] .red-ui-palette-icon,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="catch"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="e49191"] {
    background-color: #dc322f !important;
    fill: #dc322f !important;
-}
-rect.node[fill*="#e49191"] ~ text.node_label {
-    fill: #eee;
 }
