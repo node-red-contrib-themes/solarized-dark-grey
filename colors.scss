@@ -210,9 +210,9 @@ $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
 $view-grid-color: $background1;
 
-$node-label-color: #333;
-$node-border: #999;
-$node-border-unknown: #f33;
+$node-label-color: $base1;
+$node-border: $background2;
+$node-border-unknown: $solarized-red;
 $node-border-placeholder: #aaa;
 $node-background-placeholder: #eee;
 
