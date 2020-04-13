@@ -14,26 +14,55 @@
  * limitations under the License.
  **/
 
+/**
+ * Solarized dark grey colors
+ */
+$background0: #181818;
+$background1: #212121;
+$background2: #2e2e2e;
+$background3: #3a3a3a;
+
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+
+$solarized-yellow: #b58900;
+$solarized-orange: #cb4b16;
+$solarized-red: #dc322f;
+$solarized-magenta: #d33682;
+$solarized-violet: #6c71c4;
+$solarized-blue: #268bd2;
+$solarized-cyan: #2aa198;
+$solarized-green: #859900;
+
+/**
+ * Theme colors
+ */
 $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: #2e2e2e;
+$primary-background: $background0;
 
-$secondary-background: #181818;
-$secondary-background-selected: #212121;
+$secondary-background: $background0;
+$secondary-background-selected: $background1;
 $secondary-background-inactive: #f0f0f0;
 $secondary-background-hover: #ddd;
 $secondary-background-disabled: #f9f9f9;
 
-$tertiary-background: #212121;
+$tertiary-background: $background1;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #93a1a1;
+$primary-text-color: $base1;
 // UI control label text
-$secondary-text-color: #eee8d5;
+$secondary-text-color: $base2;
 $secondary-text-color-focus: #666;
 $secondary-text-color-hover: #666;
 $secondary-text-color-active: #666;
@@ -44,12 +73,12 @@ $secondary-text-color-disabled-active: #999;
 $secondary-text-color-disabled-inactive: #aaa;
 
 // Sub label text
-$tertiary-text-color: #93a1a1;
+$tertiary-text-color: $base1;
 // Heading text
-$header-text-color: #fdf6e3;
+$header-text-color: $base3;
 
-$text-color-warning: #dc322f;
-$text-color-green: #859900;
+$text-color-warning: $solarized-red;
+$text-color-green: $solarized-green;
 
 $primary-border-color: #3a3a3a;
 $secondary-border-color: #3a3a3a;
@@ -60,7 +89,7 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
+$form-input-focus-color: rgba(85,150,230,0.8);
 $form-input-border-color:  $tertiary-border-color;
 $form-input-border-selected-color:  #aaa;
 $form-input-border-error-color: rgb(214, 97, 95);
@@ -74,11 +103,11 @@ $text-editor-color: #4D4D4C;
 $text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #f6f6f6;
-$text-editor-gutter-color: #777;
-$text-editor-gutter-active-line-background: #dcdcdc;
-$text-editor-active-line-background: #efefef;
-$text-editor-selection-background: #D6D6D6;
+$text-editor-gutter-background: $background1;
+$text-editor-gutter-color: $primary-text-color;
+$text-editor-gutter-active-line-background: $base03;
+$text-editor-active-line-background: $background2;
+$text-editor-selection-background: $background2;
 
 $event-log-background: #444;
 $event-log-color: #dd9;
@@ -179,7 +208,7 @@ $view-lasso-fill: rgba(20,125,255,0.1);
 
 $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
-$view-grid-color: #212121;
+$view-grid-color: $background1;
 
 $node-label-color: #333;
 $node-border: #999;
@@ -218,7 +247,7 @@ $link-color: #999;
 $link-link-color: #aaa;
 $link-disabled-color: #ccc;
 $link-link-active-color: #ff7f0e;
-$link-unknown-color: #dc322f;
+$link-unknown-color: $solarized-red;
 
 $clipboard-textarea-background: #F3E7E7;
 
