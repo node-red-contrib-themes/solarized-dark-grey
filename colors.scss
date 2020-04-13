@@ -288,14 +288,14 @@ $notification-border-error: $text-color-warning;
 $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
 
-$debug-message-text-color: #333;
-$debug-message-text-color-meta: #a66;
-$debug-message-text-color-object-key: #792e90;
-$debug-message-text-color-msg-type-other: #2033d6;
-$debug-message-text-color-msg-type-string: #b72828;
-$debug-message-text-color-msg-type-null: #666;
-$debug-message-text-color-msg-type-meta: #666;
-$debug-message-text-color-msg-type-number: #2033d6;
+$debug-message-text-color: $base1;
+$debug-message-text-color-meta: $base1;
+$debug-message-text-color-object-key: $solarized-green;
+$debug-message-text-color-msg-type-other: $solarized-magenta;
+$debug-message-text-color-msg-type-string: $solarized-violet;
+$debug-message-text-color-msg-type-null: $solarized-cyan;
+$debug-message-text-color-msg-type-meta: $base1;
+$debug-message-text-color-msg-type-number: $solarized-blue;
 
 $debug-message-border: #eee;
 $debug-message-border-hover: #999;
