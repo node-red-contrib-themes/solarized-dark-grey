@@ -1,20 +1,30 @@
 /*
 * Custom node colors
 */
+#red-ui-palette-container .red-ui-palette-node {
+    background-color: #555 !important;
+    border: 1px solid #555;
+}
+#red-ui-palette-container .red-ui-palette-label {
+    color: #eee;
+}
+#red-ui-workspace-chart .red-ui-flow-node-label {
+    fill: #eee;
+}
+#red-ui-workspace-chart .red-ui-flow-node {
+    fill: #555;
+    stroke: #2e2e2e;
+}
 
-/* node: function */
-#palette-base-category-function #palette_node_function,
-#palette-base-category-function #palette_node_function .palette_label,
-#palette-base-category-function #palette_node_function .palette_icon,
-#palette-base-category-function #palette_node_function .palette_icon_container,
-#palette-base-category-function #palette_node_function .palette_port,
-rect.node[fill*="#fdd0a2"] {
+/* node group: function */
+#red-ui-palette-function .red-ui-palette-node,
+#red-ui-palette-function .red-ui-palette-node .red-ui-palette-label,
+#red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon,
+#red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="rgb(243, 181, 103)"] {
    color: #eee !important;
    background-color: #b58900 !important;
    fill: #b58900 !important;
-}
-rect.node[fill*="#fdd0a2"] ~ text.node_label {
-    fill: #eee;
 }
 
 /* node: telegram */
