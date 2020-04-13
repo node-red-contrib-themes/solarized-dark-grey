@@ -21,12 +21,22 @@
     stroke: #839496;
 }
 
-/* node group: function */
-#red-ui-palette-function .red-ui-palette-node,
-#red-ui-palette-function .red-ui-palette-node .red-ui-palette-label,
-#red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon,
-#red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon_container,
-#red-ui-workspace-chart .red-ui-flow-node[fill*="rgb(243, 181, 103)"] {
+/* node: function */
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="function"],
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="function"] .red-ui-palette-label,
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="function"] .red-ui-palette-icon,
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="function"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#fdd0a2"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
+/* node: switch */
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="switch"],
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="switch"] .red-ui-palette-label,
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="switch"] .red-ui-palette-icon,
+#red-ui-palette-function .red-ui-palette-node[data-palette-type*="switch"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
    background-color: #b58900 !important;
    fill: #b58900 !important;
 }
