@@ -79,15 +79,14 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
 }
 
 /* node: debug */
-#palette_node_debug,
-#palette_node_debug .palette_label,
-rect.node[fill*="#87a980"] {
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"],
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"] .red-ui-palette-label,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"] .red-ui-palette-icon,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#87a980"] {
    color: #eee !important;
    background-color: #657b83 !important;
    fill: #657b83 !important;
-}
-rect.node[fill*="#87a980"] ~ text.node_label {
-    fill: #eee;
 }
 
 /* node: catch all */
