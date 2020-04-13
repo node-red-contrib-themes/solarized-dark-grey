@@ -22,7 +22,6 @@
 #red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon,
 #red-ui-palette-function .red-ui-palette-node .red-ui-palette-icon_container,
 #red-ui-workspace-chart .red-ui-flow-node[fill*="rgb(243, 181, 103)"] {
-   color: #eee !important;
    background-color: #b58900 !important;
    fill: #b58900 !important;
 }
@@ -73,7 +72,6 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
 #red-ui-palette-Blynk_ws .red-ui-palette-node .red-ui-palette-icon,
 #red-ui-palette-Blynk_ws .red-ui-palette-node .red-ui-palette-icon_container,
 #red-ui-workspace-chart .red-ui-flow-node[fill*="#1BC17C"] {
-   color: #eee !important;
    background-color: #859900 !important;
    fill: #859900 !important;
 }
@@ -84,7 +82,6 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
 #red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"] .red-ui-palette-icon,
 #red-ui-palette-common .red-ui-palette-node[data-palette-type*="debug"] .red-ui-palette-icon_container,
 #red-ui-workspace-chart .red-ui-flow-node[fill*="#87a980"] {
-   color: #eee !important;
    background-color: #657b83 !important;
    fill: #657b83 !important;
 }
