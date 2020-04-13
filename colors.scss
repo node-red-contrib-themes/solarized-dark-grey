@@ -51,9 +51,9 @@ $primary-background: $background0;
 
 $secondary-background: $background0;
 $secondary-background-selected: $background1;
-$secondary-background-inactive: #f0f0f0;
-$secondary-background-hover: #ddd;
-$secondary-background-disabled: #f9f9f9;
+$secondary-background-inactive: darken($background1, 10%);
+$secondary-background-hover: lighten($background1, 10%);
+$secondary-background-disabled: darken($background1, 20%);
 
 $tertiary-background: $background1;
 
@@ -64,10 +64,10 @@ $primary-text-color: $base1;
 // UI control label text
 $secondary-text-color: $base2;
 $secondary-text-color-focus: #666;
-$secondary-text-color-hover: #666;
+$secondary-text-color-hover: $base2;
 $secondary-text-color-active: #666;
 $secondary-text-color-selected: #666;
-$secondary-text-color-inactive: #666;
+$secondary-text-color-inactive: $base1;
 $secondary-text-color-disabled: #bbb;
 $secondary-text-color-disabled-active: #999;
 $secondary-text-color-disabled-inactive: #aaa;
