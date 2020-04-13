@@ -91,3 +91,13 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
    background-color: #dc322f !important;
    fill: #dc322f !important;
 }
+
+/* node: inject */
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="inject"],
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="inject"] .red-ui-palette-label,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="inject"] .red-ui-palette-icon,
+#red-ui-palette-common .red-ui-palette-node[data-palette-type*="inject"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#a6bbcf"] {
+   background-color: #268bd2 !important;
+   fill: #268bd2 !important;
+}
