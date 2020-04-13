@@ -26,20 +26,6 @@
    fill: #b58900 !important;
 }
 
-/* node: telegram */
-#palette_node_telegram_receiver,
-#palette_node_telegram_command,
-#palette_node_telegram_sender,
-#palette_node_telegram_reply,
-rect.node[fill*="#a6bbcf"] {
-   color: #fff !important;
-   background-color: #268bd2 !important;
-   fill: #268bd2 !important;
-}
-rect.node[fill*="#a6bbcf"] ~ text.node_label {
-    fill: #eee;
-}
-
 /* node-red-contrib-node-lifx */
 #red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"],
 #red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"] .red-ui-palette-label,
