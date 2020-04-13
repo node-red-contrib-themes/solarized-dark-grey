@@ -40,18 +40,14 @@ rect.node[fill*="#a6bbcf"] ~ text.node_label {
     fill: #eee;
 }
 
-/* node: lifx */
-#palette_node_node-lifx-out,
-#palette_node_node-lifx-in,
-#palette_node_node-lifx-out .palette_label,
-#palette_node_node-lifx-in .palette_label,
-rect.node[fill*="#f49242"] {
-   color: #eee !important;
+/* node-red-contrib-node-lifx */
+#red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"],
+#red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#f49242"] {
    background-color: #6c71c4 !important;
    fill: #6c71c4 !important;
-}
-rect.node[fill*="#f49242"] ~ text.node_label {
-    fill: #eee;
 }
 
 /* node: flic */
