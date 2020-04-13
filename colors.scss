@@ -297,7 +297,7 @@ $debug-message-text-color-msg-type-null: $solarized-cyan;
 $debug-message-text-color-msg-type-meta: $base1;
 $debug-message-text-color-msg-type-number: $solarized-blue;
 
-$debug-message-border: #eee;
-$debug-message-border-hover: #999;
-$debug-message-border-warning: #ffdf9d;
-$debug-message-border-error: #f99;
+$debug-message-border: $background0;
+$debug-message-border-hover: $background2;
+$debug-message-border-warning: darken($solarized-yellow, 25%);
+$debug-message-border-error: darken($solarized-red, 25%);
