@@ -68,29 +68,14 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
 }
 
 /* node: blynk-websockets */
-#palette_node_blynk-websockets-in-read,
-#palette_node_blynk-websockets-in-write,
-#palette_node_blynk-websockets-out-write,
-#palette_node_blynk-websockets-out-email,
-#palette_node_blynk-websockets-in-read .palette_label,
-#palette_node_blynk-websockets-in-read .palette_icon_container,
-#palette_node_blynk-websockets-in-read .palette_port,
-#palette_node_blynk-websockets-in-write .palette_label,
-#palette_node_blynk-websockets-in-write .palette_icon_container,
-#palette_node_blynk-websockets-in-write .palette_port,
-#palette_node_blynk-websockets-out-write .palette_label,
-#palette_node_blynk-websockets-out-write .palette_icon_container,
-#palette_node_blynk-websockets-out-write .palette_port,
-#palette_node_blynk-websockets-out-email .palette_label,
-#palette_node_blynk-websockets-out-email .palette_icon_container,
-#palette_node_blynk-websockets-out-email .palette_port,
-rect.node[fill*="#1BC17C"] {
+#red-ui-palette-Blynk_ws .red-ui-palette-node,
+#red-ui-palette-Blynk_ws .red-ui-palette-node .red-ui-palette-label,
+#red-ui-palette-Blynk_ws .red-ui-palette-node .red-ui-palette-icon,
+#red-ui-palette-Blynk_ws .red-ui-palette-node .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#1BC17C"] {
    color: #eee !important;
    background-color: #859900 !important;
    fill: #859900 !important;
-}
-rect.node[fill*="#1BC17C"] ~ text.node_label {
-    fill: #eee;
 }
 
 /* node: debug */
