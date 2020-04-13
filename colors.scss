@@ -233,10 +233,10 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: #c00,
-    green: #5a8,
-    yellow: #F9DF31,
-    blue: #53A3F3,
+    red: $solarized-red,
+    green: $solarized-green,
+    yellow: $solarized-yellow,
+    blue: $solarized-blue,
     grey: #d3d3d3
 );
 
