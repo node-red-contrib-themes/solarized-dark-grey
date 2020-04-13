@@ -49,6 +49,10 @@ border: 1px solid #073642
 .ace-solarized_dark_grey .ace_invisible {
 color: rgba(147, 161, 161, 0.50)
 }
+.ace-solarized_dark_grey .ace_line,
+.ace-solarized_dark_grey .ace_markup {
+color: #93a1a1;
+}
 .ace-solarized_dark_grey .ace_keyword,
 .ace-solarized_dark_grey .ace_meta,
 .ace-solarized_dark_grey .ace_storage,
