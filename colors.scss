@@ -210,7 +210,7 @@ $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
 $view-grid-color: $background1;
 
-$node-label-color: $base1;
+$node-label-color: #000;
 $node-border: $background2;
 $node-border-unknown: $solarized-red;
 $node-border-placeholder: #aaa;
@@ -233,11 +233,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: $solarized-red,
-    green: $solarized-green,
-    yellow: $solarized-yellow,
-    blue: $solarized-blue,
-    grey: #d3d3d3
+  red: $solarized-red,
+  green: $solarized-green,
+  yellow: $solarized-yellow,
+  blue: $solarized-blue,
+  grey: #d3d3d3
 );
 
 $node-selected-color: #fff;
