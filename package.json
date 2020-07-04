@@ -1,0 +1,25 @@
+{
+  "name": "@node-red-contrib-themes/solarized-dark-grey",
+  "version": "1.0.0",
+  "description": "A dark theme for Node-RED inspired by Solarized color palette",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-red-contrib-themes/solarized-dark-grey.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodered",
+    "solarized",
+    "dark",
+    "theme"
+  ],
+  "author": "Ristomatti Airo @ristomatti",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-red-contrib-themes/solarized-dark-grey/issues"
+  },
+  "homepage": "https://github.com/node-red-contrib-themes/solarized-dark-grey#readme"
+}
