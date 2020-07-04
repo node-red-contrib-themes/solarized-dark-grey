@@ -61,6 +61,46 @@
    fill: #b58900 !important;
 }
 
+/* node: split */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="split"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="split"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="split"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="split"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
+/* node: join */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="join"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="join"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="join"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="join"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
+/* node: sort */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="sort"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="sort"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="sort"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="sort"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
+/* node: batch */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="batch"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="batch"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="batch"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="batch"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
 /* node: template */
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"],
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"] .red-ui-palette-label,
