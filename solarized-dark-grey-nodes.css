@@ -111,6 +111,16 @@
    fill: #b58900 !important;
 }
 
+/* node: exec */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="exec"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="exec"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="exec"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="exec"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="darksalmon"] {
+   background-color: #cb4b16 !important;
+   fill: #cb4b16 !important;
+}
+
 /* node: template */
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"],
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"] .red-ui-palette-label,
