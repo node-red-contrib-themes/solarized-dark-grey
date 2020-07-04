@@ -61,6 +61,20 @@
    fill: #268bd2 !important;
 }
 
+/* node: mqtt in/out */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"] .red-ui-palette-icon_container,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt out"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt out"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt out"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt out"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#d8bfd8"] {
+   background-color: #6c71c4 !important;
+   fill: #6c71c4 !important;
+}
+
 /* node-red-contrib-node-lifx */
 #red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"],
 #red-ui-palette-container .red-ui-palette-node[style*="background-color: rgb(244, 146, 66); height: 28px;"] .red-ui-palette-label,
