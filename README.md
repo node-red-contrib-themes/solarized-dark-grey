@@ -77,7 +77,7 @@ Reload the Node-RED page on the web browser.
 
 ## License
 
-[Apache][license]
+[MIT][license]
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/node-red-contrib-themes/solarized-dark-grey
 [commits]: https://github.com/node-red-contrib-themes/solarized-dark-grey/commits/master
