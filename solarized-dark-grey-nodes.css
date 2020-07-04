@@ -111,6 +111,26 @@
    fill: #268bd2 !important;
 }
 
+/* node: delay */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="delay"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="delay"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="delay"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="delay"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E6E0F8"] {
+   background-color: #d33682 !important;
+   fill: #d33682 !important;
+}
+
+/* node: trigger */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="trigger"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="trigger"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="trigger"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="trigger"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E6E0F8"] {
+   background-color: #2aa198 !important;
+   fill: #2aa198 !important;
+}
+
 /* node: mqtt in/out */
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"],
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="mqtt in"] .red-ui-palette-label,
