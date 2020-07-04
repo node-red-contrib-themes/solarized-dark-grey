@@ -51,6 +51,16 @@
    fill: #b58900 !important;
 }
 
+/* node: range */
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="range"],
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="range"] .red-ui-palette-label,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="range"] .red-ui-palette-icon,
+#red-ui-palette-container .red-ui-palette-node[data-palette-type*="range"] .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#E2D96E"] {
+   background-color: #b58900 !important;
+   fill: #b58900 !important;
+}
+
 /* node: template */
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"],
 #red-ui-palette-container .red-ui-palette-node[data-palette-type*="template"] .red-ui-palette-label,
