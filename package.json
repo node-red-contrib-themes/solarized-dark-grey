@@ -1,6 +1,6 @@
 {
   "name": "@node-red-contrib-themes/solarized-dark-grey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark theme for Node-RED inspired by Solarized color palette",
   "repository": {
     "type": "git",
