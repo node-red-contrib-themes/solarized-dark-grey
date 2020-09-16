@@ -226,3 +226,15 @@ rect.node[fill*="#4BADAC"] ~ text.node_label {
    background-color: #268bd2 !important;
    fill: #268bd2 !important;
 }
+
+/* node: home-assistant-websocket */
+#red-ui-palette-container-home_assistant #red-ui-palette-home_assistant .red-ui-palette-node,
+#red-ui-palette-container-home_assistant #red-ui-palette-home_assistant .red-ui-palette-node .red-ui-palette-label,
+#red-ui-palette-container-home_assistant #red-ui-palette-home_assistant .red-ui-palette-node .red-ui-palette-icon,
+#red-ui-palette-container-home_assistant #red-ui-palette-home_assistant .red-ui-palette-node .red-ui-palette-icon_container,
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#038FC7"],
+#red-ui-workspace-chart .red-ui-flow-node[fill*="#52C0F2"] {
+   background-color: #268bd2 !important;
+   fill: #268bd2 !important;
+}
+
