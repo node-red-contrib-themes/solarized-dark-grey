@@ -77,9 +77,8 @@ $tertiary-text-color: $base00;
 // Heading text
 $header-text-color: $base3;
 
-// TODO: customize
-$text-color-error: #AD1625;
-$text-color-warning: $solarized-red;
+$text-color-error: $solarized-red;
+$text-color-warning: $solarized-yellow;
 $text-color-success: $solarized-green;
 $text-color-code: #AD1625;
 $text-color-link: #0088cc;
@@ -298,9 +297,9 @@ $vcCommitShaColor: #c38888;
 $dnd-background: rgba(0,0,0,0.3);
 $dnd-color: #fff;
 
-$notification-border-default: #325C80;
-$notification-border-success: #4B8400;
-$notification-border-warning: #D74108;
+$notification-border-default: $solarized-magenta;
+$notification-border-success: $text-color-success;
+$notification-border-warning: $solarized-yellow;
 $notification-border-error: $text-color-warning;
 
 $debug-message-background: $secondary-background;
