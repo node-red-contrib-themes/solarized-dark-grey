@@ -3,6 +3,7 @@ module.exports = function(RED) {
     type: 'node-red-theme',
     css: [
       'theme.min.css',
+      'theme-customizations.css',
       'theme-nodes.css',
       'theme-scrollbars.css'
     ],
