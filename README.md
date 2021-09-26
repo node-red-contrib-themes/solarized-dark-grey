@@ -15,6 +15,16 @@ A dark theme for [Node-RED][node-red] inspired by [Solarized color palette][sola
 
 ## Install
 
+### Using Node-RED admin CLI
+
+```shell
+node-red admin install @node-red-contrib-themes solarized-dark-grey
+```
+
+Restart Node-RED.
+
+### Using npm
+
 Change to your Node-RED `userDir` (usually `~/.node-red`)
 
 ```shell
@@ -39,7 +49,6 @@ Restart Node-RED.
 
 *) For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
-
 
 ## Acknowledgments
 
