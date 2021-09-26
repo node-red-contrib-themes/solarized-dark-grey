@@ -1,5 +1,5 @@
 images
-colors.scss
+theme.scss
 
 # VS Code history extension
 .history

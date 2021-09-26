@@ -2,12 +2,12 @@ module.exports = function(RED) {
   RED.plugins.registerPlugin('solarized-dark-grey', {
     type: 'node-red-theme',
     css: [
-      'solarized-dark-grey.css',
-      'solarized-dark-grey-nodes.css'
+      'theme.min.css',
+      'theme-nodes.css'
     ],
     scripts: [
-      'theme-tomorrow.js',
-      'solarized-dark-grey.js'
+      'ace-editor-theme.js',
+      'ace-editor-config.js'
     ]
   });
 };
