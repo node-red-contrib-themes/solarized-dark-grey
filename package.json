@@ -14,7 +14,7 @@
     "grey",
     "theme"
   ],
-  "author": "Ristomatti Airo @ristomatti",
+  "author": "Ristomatti Airo <ristomatti.airo@gmail.com>",
   "publishConfig": {
     "access": "public"
   },
