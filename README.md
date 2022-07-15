@@ -1,3 +1,9 @@
+# DEPRECATED REPOSITORY
+
+As of Node-RED 3.0, this theme is maintained in the [Node-RED Contrib Theme Collection](https://github.com/node-red-contrib-themes/theme-collection) repository.
+
+DEVELOPERS: If your project uses this theme as a dependency, please update your project as this repository will no longer be maintained.
+
 # Solarized Dark Grey Node-RED theme
 
 ![Project Maintenance][maintenance-shield]
