@@ -21,60 +21,40 @@ A dark theme for [Node-RED][node-red] inspired by [Solarized color palette][sola
 
 ## Install
 
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+### Using Node-RED admin CLI
+
+```shell
+node-red admin install @node-red-contrib-themes solarized-dark-grey
+```
+
+Restart Node-RED.
+
+### Using npm
+
+Change to your Node-RED `userDir` (usually `~/.node-red`)
 
 ```shell
 cd ~/.node-red
 ```
 
-Install this package.
+Install from [npm](https://npmjs.com)
 
 ```shell
 npm install @node-red-contrib-themes/solarized-dark-grey
 ```
 
-Add the following to the `editorTheme` section of your `settings.js`.
+Add the following to the `editorTheme` section of your `settings.js`*
 
 ```js
 editorTheme: {
-    page: {
-        css: [
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-dark-grey/solarized-dark-grey.css",
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-dark-grey/solarized-dark-grey-nodes.css"
-        ],
-        scripts: [
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-dark-grey/theme-tomorrow.js",
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-dark-grey/solarized-dark-grey.js"
-        ]
-    }
-}
+    theme: "solarized-dark-grey"
+},
 ```
-
-Replace `<HOME>` with the home directory of the user running Node-RED. For
-example, `/home/username`.
-
-For more details on the configuration please refer to the
-[Node-RED official documentation][node-red-doc].
 
 Restart Node-RED.
 
-Enjoy!
-
-## Update
-
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
-
-```shell
-cd ~/.node-red
-```
-
-Update this package.
-
-```shell
-npm update @node-red-contrib-themes/solarized-dark-grey
-```
-
-Reload the Node-RED page on the web browser.
+*) For more details on the configuration please refer to the
+[Node-RED official documentation][node-red-doc].
 
 ## Acknowledgments
 

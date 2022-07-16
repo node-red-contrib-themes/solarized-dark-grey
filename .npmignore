@@ -1,5 +1,8 @@
 images
-colors.scss
+theme.scss
 
 # VS Code history extension
 .history
+
+# Node-RED userdir
+.node-red

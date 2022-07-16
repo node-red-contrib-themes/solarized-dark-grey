@@ -1,2 +1,11 @@
 # VS Code history extension
 .history
+
+node_modules
+
+# Node-RED configs
+.node-red/.config*
+.node-red/*.backup
+
+# Webstorm/IDEA
+.idea
